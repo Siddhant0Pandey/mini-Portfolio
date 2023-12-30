@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { UilArrowCircleRight } from "@iconscout/react-unicons";
+import skillImage from "../images/me.png";
 
 export default function Skills() {
   const [showSkill, setShowSkill] = useState(false);
@@ -24,7 +25,7 @@ export default function Skills() {
             </div>
           )}
           <div className="skill_img" onClick={toggleSkill}>
-            <img src="./src/images/me.png" />
+            <img src={skillImage} />
           </div>
           <div className={skillsClasses}>
             {showSkill && (
