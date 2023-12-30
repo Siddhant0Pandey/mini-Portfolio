@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { UilArrowCircleRight } from "@iconscout/react-unicons";
-import skillImage from "../images/me.png";
+import skillImage from "/public/images/me.png";
 
 export default function Skills() {
   const [showSkill, setShowSkill] = useState(false);
