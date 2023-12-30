@@ -1,3 +1,10 @@
+// import img1 from "public/images/image1.jpg";
+// import img2 from "public/images/image2.jpg";
+// import img3 from "public/images/image3.jpg";
+import img1 from "/public/images/image1.jpg";
+import img2 from "/public/images/image2.jpg";
+import img3 from "/public/images/image3.jpg";
+
 export default function Projects() {
   return (
     <div className="projects_section" id="Projects">
@@ -6,19 +13,19 @@ export default function Projects() {
       <div className="projects_container">
         <div className="projects">
           <a href="https://www.example.com">
-            <img src="./src/images/image1.jpg" alt="MY Project" />
+            <img src={img1} alt="MY Project" />
           </a>
         </div>
         <div className="projects">
           <a href="https://www.example.com">
             {" "}
-            <img src="./src/images/image2.jpg" alt="My Project" />
+            <img src={img2} alt="My Project" />
           </a>
         </div>
         <div className="projects">
           <a href="https://www.example.com">
             {" "}
-            <img src="./src/images/image3.jpg" alt="My Project" />
+            <img src={img3} alt="My Project" />
           </a>
         </div>
       </div>
